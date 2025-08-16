@@ -12,7 +12,7 @@ export const LoginPage = () => {
         e.preventDefault();
 
         try {
-            const res = await axios.post("http://localhost:4000/api/v1/login", {email}, {withCredentials: true});
+            const res = await axios.post("https://eazybyts-znpn.onrender.com/api/v1/login", {email}, {withCredentials: true});
             toast.success(res.data.message || "Login request sent successfully!");
 
             setTimeout(() => {

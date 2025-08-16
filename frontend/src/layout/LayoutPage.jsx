@@ -65,31 +65,8 @@ export const LayoutPage = () => {
 
         {/* Main Content */}
         <main className="flex flex-col md:flex-row items-center max-md:text-center justify-between mt-1 pb-16 px-6 sm:px-10 md:px-24 max-w-7xl mx-auto w-full">
-          {/* Left Section */}
-          {/* <div className="flex flex-col items-center md:items-start">
-          <button
-            className="mt-16 mb-6 flex items-center space-x-2 border border-indigo-600 text-indigo-600 text-xs rounded-full px-4 pr-1.5 py-1.5 hover:bg-indigo-50 transition"
-            type="button"
-          >
-            <span>Explore how we help grow brands.</span>
-            <span className="flex items-center justify-center size-6 p-1 rounded-full bg-indigo-600">
-              <svg width="14" height="11" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 6.5h14M9.5 1 15 6.5 9.5 12" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </span>
-          </button>
-          <h1 className="text-gray-900 font-semibold text-3xl sm:text-4xl md:text-5xl max-w-2xl leading-tight">
-            Preferred choice of leaders in
-            <span className="text-indigo-600"> every industry</span>
-          </h1>
-          <p className="mt-4 text-gray-600 max-w-md text-sm sm:text-base leading-relaxed">
-            Learn why professionals trust our solution to complete their customer journey.
-          </p>
-         
-        </div> */}
+          
           <TypingEffect></TypingEffect>
-              {/* <HeroSection></HeroSection> */}
-              {/* <PortfolioHero></PortfolioHero> */}
           {/* Right Section - Avatar with animation */}
           <div aria-label="Photos of leaders" className="mt-4 pb-6 flex justify-center items-center">
             <div className="relative w-56 h-56 flex items-center justify-center">

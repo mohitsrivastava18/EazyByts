@@ -11,8 +11,8 @@ const app = express()
 dotenv.config()
 
 const allowedOrigins = [
-  "https://eazybyts-adminpanel.onrender.com/", // your React dev server
-   "https://eazybyts-frontend.onrender.com/" // another frontend
+  "https://eazybyts-adminpanel.onrender.com", // your React dev server
+   "https://eazybyts-frontend.onrender.com" // another frontend
 ];
 
 // MIDDLEWARE

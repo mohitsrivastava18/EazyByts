@@ -12,7 +12,7 @@ function ProjectPage() {
   const [formModalState, setFormModalState] = useState({ isOpen: false, projectData: null }); // Single state for add/edit modal
   const [refreshKey, setRefreshKey] = useState(0);
 
-  const API_ENDPOINT = 'https://eazybyts-znpn.onrender.com';
+  const API_ENDPOINT = 'https://eazybyts-backend-kp6l.onrender.com';
 
   const fetchProjects = async () => {
     try {

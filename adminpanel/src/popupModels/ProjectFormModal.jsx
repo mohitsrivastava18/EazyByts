@@ -1,5 +1,3 @@
-
-import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { FaTimes, FaUpload, FaPlus } from "react-icons/fa";
 import { toast } from "react-toastify";

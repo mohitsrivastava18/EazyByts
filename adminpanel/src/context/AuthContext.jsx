@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const res = await axios.get('https://eazybyts-znpn.onrender.com/api/v1/me', {
+        const res = await axios.get('https://eazybyts-backend-kp6l.onrender.com/api/v1/me', {
           withCredentials: true,
         });
         console.log('Auth check response:', res.data);

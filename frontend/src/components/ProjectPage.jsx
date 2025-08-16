@@ -11,7 +11,7 @@ export const ProjectPage = ({ ref }) => {
         const fetchProjects = async () => {
             try {
                 // Replace with your actual API endpoint
-                const response = await axios.get("https://eazybyts-znpn.onrender.com/api/v1/projects",{ withCredentials: true });
+                const response = await axios.get("https://eazybyts-backend-kp6l.onrender.com/api/v1/projects",{ withCredentials: true });
                 setProjects(response.data);
                 setLoading(false);
             } catch (error) {

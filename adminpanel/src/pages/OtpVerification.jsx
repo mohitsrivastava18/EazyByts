@@ -60,7 +60,7 @@ export const OtpVerification = () => {
     }
     const otpString = otp.join('');
     try {
-      const res = await axios.post('https://eazybyts-znpn.onrender.com/api/v1/verify', { otp: otpString }, { withCredentials: true });
+      const res = await axios.post('https://eazybyts-backend-kp6l.onrender.com/api/v1/verify', { otp: otpString }, { withCredentials: true });
       toast.success(res.data.message || 'OTP verified successfully!');
       login(); // Update auth state
       navigate('/dashboard'); // Redirect immediately

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Floating Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+}
+/* 
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+} */
+
+/* Spinning Border Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-border {
+  animation: spin 4s linear infinite;
+  background: conic-gradient(from 0deg, #00f0ff, #ff00c8, #00f0ff);
+  mask-image: radial-gradient(circle, transparent 60%, black 61%);
+}
